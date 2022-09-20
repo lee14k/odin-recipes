@@ -1,0 +1,15 @@
+.main-recipe-heading {
+    color:rgb(5, 123, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:darkblue;
+}
+
+.main-recipe-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:blueviolet;
+}
+
+a:link {
+    color:white;
+}
+
