@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .main-recipe-heading {
     color:rgb(5, 123, 226);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,9 +11,51 @@
 .main-recipe-list {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:blueviolet;
+    flex-direction: column;
+    
 }
 
 a:link {
     color:white;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+#cookies {
+    width:290px;
+    height:200px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    border:red solid;
+    justify-content:space-around;   
+}
+
+.exist {
+    position: absolute;
+    left:500px;
+    z-index: 1;
+}
+.panel { 
+    transform: translate(90%);
+    transition-property: transform;
+    transition-duration: 2s;
+    background-color: white;
+}
+
+.nopanel {
+    transform: translate(-90%);
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.priority {
+    z-index: 10;
+    position: absolute;
+}
