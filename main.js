@@ -1,14 +1,14 @@
 let panel = document.querySelector('.arrow1')
 let slidey = document.querySelector('.exist')
 let panel2 = document.querySelector('.arrow2')
-let c=0
+let c=1
 panel.addEventListener('click', slider)
 function slider () {
 if (c%2 === 0) {
-    document.querySelector('.exist').className ='exist panel'
+    document.querySelector('.exist').className ='exist'
     c++
 }else {
-    document.querySelector('.exist').className='exist'
+    document.querySelector('.exist').className='exist panel'
 c++
 }
 }
